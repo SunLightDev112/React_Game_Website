@@ -1,0 +1,79 @@
+.features{
+    background-color: #2B2F38;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.features-head {
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 15px;
+}
+.features-head h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.features_blocks{
+    position: relative;
+}
+.features_blocks::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    width: 100px;
+    top: -110px;
+    height: 100px;
+    background-color: #323338;
+    border-radius: 12px;
+    transform: rotate(45deg);
+}
+.features_blocks::before {
+    content: '';
+    position: absolute;
+    left: -60px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: #323338;
+    border-radius: 12px;
+    transform: rotate(45deg);
+}
+.feature-item {
+    color: #ffffff;
+    margin: 15px 0;
+    transition: all 0.3s;
+}
+.feature-item:hover{
+    cursor: pointer;
+}
+.feature-item-icon{
+    fill: #ffffff;
+    background: #FEB73B;
+    padding: 15px;
+    border-radius: 5px;
+}
+.feature-item-icon1{
+    background: #FEB73B;
+}
+.feature-item-icon2{
+    background: #364AF7;
+}
+.feature-item-icon3{
+    background: #08ADFF;
+}
+.feature-item-icon4{
+    background: #FF7573;
+}
+.feature-item h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+.feature-item:hover .feature-item-icon{
+    background: #18ff00;
+    transition: all 0.3s;
+}
+.feature-item:hover h5 {
+    color: #18ff00;
+    transition: all 0.3s;
+}

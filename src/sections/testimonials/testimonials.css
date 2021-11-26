@@ -1,0 +1,122 @@
+.testimonials{
+    background-color: #2B2F38;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.testimonials-head{
+    text-align: center;
+    color: #ffffff;
+    padding: 30px 15px;
+}
+.testimonials-head h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.testimonials_slider{
+    position: relative;
+}
+.testimonials_slider::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    width: 100px;
+    top: 0;
+    height: 100px;
+    background-color: #323338;
+    border-radius: 12px;
+    transform: rotate(45deg);
+}
+.testimonial_item{
+    padding-top: 50px;
+}
+.testimonial_image_wrapper {
+    text-align: center;
+    padding-right: 50px;
+}
+.testimonial_image {
+    position: relative;
+}
+.testimonial_image img {
+    border-radius: 7px;
+}
+.testimonial_image svg{
+    position: absolute;
+    right: -50px;
+    top: -70px;
+    width: 100px;
+    z-index: 9999999;
+}
+.testimonials_slider_controls {
+    text-align: center;
+    margin-top: 20px;
+}
+.testimonials_slider_controls .btn_nav {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 7px;
+    outline: none;
+}
+.testimonials_slider_controls .btn_nav svg {
+    width: 20px;
+}
+.testimonials_slider_controls .btn_nav svg line, .testimonials_slider_controls .btn_nav svg path{
+    stroke: #707070;
+}
+.testimonials_slider_controls .btn_nav:hover svg line, .testimonials_slider_controls .btn_nav:hover svg path{
+    stroke: #18FF00;
+}
+.testimonial_info {
+    color: #ffffff;
+    padding: 0 40px;
+}
+.testimonial_title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.testimonial_text {
+    font-size: 13px;
+}
+.testimonial_name {
+    font-size: 18px;
+    color: #18FF00;
+    margin-bottom: 0px;
+}
+.testimonial_role {
+    font-size: 13px;
+}
+.testimonial_star.fill {
+    width: 15px;
+    margin-right: 7px;
+    fill: #707070;
+}
+.testimonial_star.fill {
+    fill: #F58707;
+}
+@media (max-width:992px) {
+    .testimonial_image_wrapper {
+        padding-right: 15px;
+    }
+    .testimonial_image svg {
+        right: -30px;
+        width: 70px;
+    }
+}
+@media (max-width:767px) {
+    .testimonials {
+        padding: 20px 0;
+    }
+    .testimonials-head {
+        padding: 20px 15px 15px;
+    }
+    .testimonial_image {
+        display: inline-block;
+    }
+    .testimonial_image img {
+        width: 200px;
+    }
+    .testimonial_info {
+        text-align: center;
+        margin-top: 20px;
+    }
+}

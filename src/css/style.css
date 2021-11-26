@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    background-color: #2B2F38;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s;
+    color: #ffffff;
+}
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s;
+    color: #18ff00;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    color: #ffffff;
+    border: 1px solid #18ff00;
+    background-color: #18ff00;
+    padding: 10px 25px;
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 14px;
+    outline: none;
+}
+.btn:hover, .btn:focus{
+    color: #ffffff;
+    border-color:#ffffff;
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn-clear{
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color:transparent;
+}
+.btn-clear:hover ,.btn-clear:focus{
+    color: #ffffff;
+    border-color: #18ff00;
+    background-color:#18ff00;
+}
+.btn svg {
+    fill: #ffffff;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.btn:hover svg, .btn:focus svg{
+    fill: #ffffff;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group svg {
+    position: absolute;
+    fill: #555555;
+    left: 13px;
+    top: 17px;
+    width: 13px;
+    height: 22px;
+}
+input.form-control{
+    padding: 27px 15px 27px 15px;
+    font-size: 14px;
+}
+textarea.form-control{
+    padding: 27px 15px 27px 15px;
+    font-size: 14px;
+}
+.form-control.form-group-svg{
+    padding: 27px 15px 27px 33px;
+}
+.feedback-invalid {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
